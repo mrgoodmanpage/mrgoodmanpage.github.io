@@ -1,0 +1,35 @@
+body {
+	background:NAVAJOWHITE;
+	font-family: "CENTURY GOTHIC";
+	color:#A0522D;
+	margin: 0;
+	padding: 0px 0px;
+}
+p {
+	background: #FFF8DC;
+	color: #A0522D;
+	padding:0px 10px;
+	font-family: "comic sans ms";
+	
+}
+h2, h3 {
+	color:#8B4513;
+	margin:0px 10px;
+}
+a {
+	color:#5F9EA0;
+	margin:0px 10px;
+}
+iframe {
+	display: block;
+	height: 309px;
+	width: 512px; 
+	margin: 0px 10px;
+}
+ol {
+	background: #FFF8DC;
+}
+ul {
+	background: #FFF8DC;
+}
+poh vnk ierakstio ko 
