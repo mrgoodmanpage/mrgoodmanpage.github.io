@@ -1,2 +1,2 @@
-alert("Watch the video Mr. Good Man");
+/*alert("Watch the video Mr. Good Man");*/
 BRUGHHHHHHH
