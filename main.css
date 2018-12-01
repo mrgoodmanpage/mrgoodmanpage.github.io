@@ -28,6 +28,8 @@ h2 {
 	font-size: 2em;
 	padding: 0px auto;
 	text-align: center;
+	max-width: 1050px;
+	margin: 0 auto;
 }
 .ih {
 	color:#8B4513;
@@ -44,7 +46,7 @@ a {
 	margin:0px auto;
 }
 .link1 {
-	margin-left: 10px;
+	margin-left: 70px;
 	background-image: url("bides/7UIS.gif");
 	display: inline-block;
 	width: 90px;
@@ -54,6 +56,7 @@ a {
 	border-radius: 50%;
 	font-family: "comic sans ms";
 	color: azure;
+	border-style: groove;
 	
 }
 .link2 {
