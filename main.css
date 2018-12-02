@@ -19,18 +19,22 @@ h2 {
 	padding: 5px auto;
 	border-style: double;
 	text-align: center;
+	border-radius: 5px;
 }
 .virs {
 	margin: 0px 10px 10px 10px;
 }
 .virs2 {
 	border-style: double;
+	border-radius: 5px;
 	font-size: 2em;
 	padding: 0px auto;
 	text-align: center;
 	max-width: 1050px;
-	margin: 5px auto 0px;
+	margin: 5px 5px 0;
 	color: sienna;
+	border-radius: 5px;
+	background: moccasin;
 }
 .ih {
 	color:sienna;
@@ -38,6 +42,7 @@ h2 {
 	padding: 5px;
 	text-align: center;
 	border-style: dotted;
+	border-radius: 5px;
 }
 h3 {
 	margin: 10px auto 5px;
@@ -51,7 +56,7 @@ a {
 	margin:0px auto;
 }
 .link1 {
-	background-image: url("bides/7UIS.gif");
+	background-image: url("bides/gif2.gif");
 	display: inline-block;
 	width: 90px;
 	height: 90px;
@@ -59,19 +64,22 @@ a {
 	text-align: center;
 	border-radius: 50%;
 	font-family: "comic sans ms";
-	color: azure;
+	border-color: moccasin;
 	border-style: groove;
 	
 }
+
 .link1cent {
 	margin: 0 auto;
 	text-align: center;
 }
 .link2 {
-	width: 100%;
-	padding: 5px;
+
+	padding: 0px auto 5px;
 	text-align: center;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	background: moccasin;
 	
 }
 iframe, video {
@@ -106,6 +114,7 @@ ul {
 	grid-template-rows: repeat(3,auto);
 	grid-gap: 5px;
 	margin: 0 auto;
+	padding: 0 5px 5px 5px;
 	
 }
 .z{
@@ -114,6 +123,7 @@ ul {
 	height: 100%;
 	grid-row: 1/span 2;
 	object-fit: cover;
+	border-radius: 5px;
 	
 }
 .x {
@@ -122,7 +132,7 @@ ul {
 	height: 293px;
 	grid-column:1/span 2;
 	object-fit: cover;
-	
+	border-radius: 5px;
 }
 .c {
 	grid-column: 1;
@@ -130,12 +140,20 @@ ul {
 	object-fit: contain;
 	overflow: hidden;
 	background: black;
-	
+	border-radius: 5px;
 }
 .v{
 	grid-column: 1;
 	grid-row: 2;
 	object-fit: contain;
+
+
+}
+.sec {
+	border-radius: 5px;
+	overflow: hidden;
+	border: 1px solid transparent;
+	font-size: 0;
 }
 .kl1 {
 	background: moccasin;
@@ -149,13 +167,71 @@ ul {
 	border-color: burlywood;
 }
 .kl2 {
-	background: moccasin;
+	background: cornsilk;
 	max-width: 900px;
-	
+	box-sizing: border-box;
 	text-align: center;
-	margin: 20px auto;
-	padding: 5px;
+	margin: 20px auto 5px;
+	padding: 0px;
 	border-radius: 10px;
 	border-style: ridge;
 	border-color: burlywood;
+}
+.p2new {
+	border-style: ridge;
+	border-color: burlywood;
+	text-align: center;
+	border-radius: 10px;
+	padding: 0;
+	margin: 0 auto 10px;
+	background: cornsilk;
+	max-width: 900px;
+	box-sizing: border-box;
+}
+.fortd {
+	background: cornsilk;
+}
+.bz {
+	width: 20%;
+	border-radius: 10px;
+}
+.bzt {
+	font-size: 250%;
+}
+.lod {
+	border-style: ridge;
+	border-radius: 10px;
+	border-color: burlywood;
+	height: 20px;
+	width: 700px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: moccasin;
+	
+}
+@keyframes loading {
+	from {transform: translateX(-110%);}
+	to {transform: translateX(710px);}
+}
+.lodbr {
+	height: 20px;
+	width: 60px;
+	background-image: url("bides/gif2.gif");
+	border-radius: 6px;
+	transform: translateX(-110%);
+	animation: 3s ease-in-out 0s infinite alternate forwards loading;
+	border-style: solid;
+	border-color: rosybrown;
+	border-width: 0.5px;
+	box-sizing: border-box;
+
+}
+.link11 {
+	height: 30px;
+	width: 60px;
+	display: inline-block;
+	text-align: center;
+}
+.bzq {
+	font-size: 17px;
 }
