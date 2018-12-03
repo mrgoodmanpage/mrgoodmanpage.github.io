@@ -205,7 +205,7 @@ ul {
 	border-color: burlywood;
 	height: 20px;
 	width: 700px;
-	margin: 0 auto;
+	margin: 0 auto 20px;
 	overflow: hidden;
 	background: moccasin;
 	
@@ -220,7 +220,7 @@ ul {
 	background-image: url("bides/gif2.gif");
 	border-radius: 6px;
 	transform: translateX(-110%);
-	animation: 3s ease-in-out 0s infinite alternate forwards loading;
+	animation: 3.5s ease-in-out 0s infinite alternate forwards loading;
 	border-style: solid;
 	border-color: rosybrown;
 	border-width: 0.5px;
