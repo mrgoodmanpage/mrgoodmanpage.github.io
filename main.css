@@ -1,6 +1,6 @@
 body {
 	background:tan;
-	font-family: "CENTURY GOTHIC";
+	font-family:  'Julius Sans One', sans-serif;
 	color:#A0522D;
 	padding: 0px 0px;
 	margin: auto;
@@ -10,7 +10,8 @@ p {
 	background: #FFF8DC;
 	color: #A0522D;
 	padding:2px 0px;
-	font-family: "letter gothic";
+	
+	font-family: 'EB Garamond', serif;
 	margin: 0px auto 0px;
 	text-align: center;
 }
@@ -299,22 +300,24 @@ ul {
 .shpa {
 	/*border-style: dashed;*/
 	position: absolute;
-	top: -120px;
-	left: 50%;
+	
 	text-align: center;
 	height: 785px;
-	margin-left: -20px;
+	
 	pointer-events: none;
 }
 @keyframes sanhat {
-	from {transform: translateY(0);}
-	to {transform: translateY(669px);}
+	from {transform: translateY(-1000px);}
+	to {transform: translateY(0);}
 }
 .sh {
 	height: 100px;
 	width: 100px;
 	background-image: url("bides/Christmas-Hat.png");
 	background-size: 100px;
+	position: relative;
+	top: -45px;
+	right: -25px;
 	/*border-style: dotted;*/
 	margin: auto;
 	box-sizing: border-box;
