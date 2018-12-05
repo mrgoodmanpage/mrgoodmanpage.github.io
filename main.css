@@ -46,6 +46,8 @@ h2 {
 	text-align: center;
 	border-style: dotted;
 	border-radius: 5px;
+	font-family: 'EB Garamond', serif;
+	font-size: 130%;
 }
 h3 {
 	margin: 10px auto 5px;
