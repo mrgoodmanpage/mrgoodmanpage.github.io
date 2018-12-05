@@ -1,6 +1,6 @@
 body {
 	background:tan;
-	font-family:  'Julius Sans One', sans-serif;
+	font-family: 'Julius Sans One', sans-serif;
 	color:#A0522D;
 	padding: 0px 0px;
 	margin: auto;
@@ -10,7 +10,6 @@ p {
 	background: #FFF8DC;
 	color: #A0522D;
 	padding:2px 0px;
-	
 	font-family: 'EB Garamond', serif;
 	margin: 0px auto 0px;
 	text-align: center;
@@ -258,7 +257,7 @@ ul {
 	font-family: 'Audiowide', cursive;
 }
 .p3mv1 {
-	font-family: century gothic;
+	font-family: 'Julius Sans One', sans-serif;
 	font-size: 30px;
 	margin-bottom: 10px;
 }
@@ -296,15 +295,6 @@ ul {
 .p3lexb {
 	max-width: 900px;
 	margin: 0px 10px 5px;
-}
-.shpa {
-	/*border-style: dashed;*/
-	position: absolute;
-	
-	text-align: center;
-	height: 785px;
-	
-	pointer-events: none;
 }
 @keyframes sanhat {
 	from {transform: translateY(-1000px);}
